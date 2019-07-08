@@ -14,7 +14,7 @@ The following need to be done at least once. They do not need to be repeated for
           NOTE: You may need to log out and back in again after setting JAVA_HOME before the Autopsy 
           unix_setup.sh script can see the value. 
 -- OS X: Use The Oracle website: https://www.java.com/
-         Set JAVA_HOME with something like: export JAVA_HOME=`/usr/libexec/java_home` in .bash_profile
+         Set JAVA_HOME with something like: export JAVA_HOME=`/usr/libexec/java_home -v12` in .bash_profile
 
 
 * Install The Sleuth Kit Java Bindings *
